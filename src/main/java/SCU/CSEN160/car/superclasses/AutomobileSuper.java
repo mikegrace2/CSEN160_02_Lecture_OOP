@@ -1,4 +1,4 @@
-package superclasses;
+package SCU.CSEN160.car.superclasses;
 
 public class AutomobileSuper extends Object{
 	protected int odometer;
@@ -17,10 +17,10 @@ public class AutomobileSuper extends Object{
 	}
 	
 	public void drive() {
-		
+		System.out.println("Driving");
 	}
 	
 	public void stop() {
-
+        System.out.println("Stopping");
 	}	
 }

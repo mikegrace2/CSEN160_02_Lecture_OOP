@@ -1,6 +1,6 @@
-package subclasses;
+package SCU.CSEN160.car.subclasses;
 
-import abstractInterfaces.AbstractAutomobile;
+import SCU.CSEN160.car.abstractInterfaces.AbstractAutomobile;
 
 public class TeslaRoadster extends AbstractAutomobile{
 	private int odometer;

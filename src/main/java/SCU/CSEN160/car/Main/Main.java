@@ -1,6 +1,6 @@
-package Main;
+package SCU.CSEN160.car.Main;
 
-import superclasses.AutomobileSuper;
+import SCU.CSEN160.car.superclasses.AutomobileSuper;
 
 public class Main {
 	public static void main(String[] args) {

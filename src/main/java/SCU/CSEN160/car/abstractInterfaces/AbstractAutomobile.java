@@ -1,4 +1,4 @@
-package abstractInterfaces;
+package SCU.CSEN160.car.abstractInterfaces;
 
 import java.util.Random;
 
@@ -15,5 +15,4 @@ public abstract class AbstractAutomobile {
 	}
 	
 	public abstract void calcAmount();
-	
 }

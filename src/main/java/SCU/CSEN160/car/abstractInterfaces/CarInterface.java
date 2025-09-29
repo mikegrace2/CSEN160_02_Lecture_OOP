@@ -1,4 +1,4 @@
-package abstractInterfaces;
+package SCU.CSEN160.car.abstractInterfaces;
 
 public interface CarInterface {
 	public void drive();
