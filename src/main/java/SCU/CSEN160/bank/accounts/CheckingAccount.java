@@ -29,4 +29,9 @@ public class CheckingAccount implements Account {
     public double getInterestRate() {
         return 0;
     }
+
+    @Override
+    public double calculateInterest(int months) {
+        return 0;
+    }
 }

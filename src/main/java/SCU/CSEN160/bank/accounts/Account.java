@@ -6,4 +6,5 @@ public interface Account {
     public void withdraw(double amount);
     public String getAccountNumber();
     public double getInterestRate();
+    public double calculateInterest(int months);
 }
