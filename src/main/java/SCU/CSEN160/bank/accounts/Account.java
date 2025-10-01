@@ -7,4 +7,5 @@ public interface Account {
     public String getAccountNumber();
     public double getInterestRate();
     public double calculateInterest(int months);
+    public String getAccountType();
 }

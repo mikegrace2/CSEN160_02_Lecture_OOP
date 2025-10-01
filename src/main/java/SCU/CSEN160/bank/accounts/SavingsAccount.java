@@ -3,7 +3,7 @@ package SCU.CSEN160.bank.accounts;
 public class SavingsAccount implements Account {
     private String accountNumber;
     private double balance;
-    private double interestRate;
+    private double interestRate=1.0;
 
     @Override
     public double getBalance() {
@@ -27,11 +27,16 @@ public class SavingsAccount implements Account {
 
     @Override
     public double getInterestRate() {
-        return 0;
+        return this.interestRate;
     }
 
     @Override
     public double calculateInterest(int months) {
         return 0;
+    }
+
+    @Override
+    public String getAccountType() {
+        return "Savings Account";
     }
 }
