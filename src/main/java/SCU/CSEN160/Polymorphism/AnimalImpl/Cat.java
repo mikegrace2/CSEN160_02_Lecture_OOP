@@ -5,7 +5,7 @@ import SCU.CSEN160.Polymorphism.Animal.Animal;
 public class Cat implements Animal {
     @Override
     public void talks() {
-        System.out.println("I am a Cat: Meow Meow");
+        System.out.println("I am a Cat "+Animal.animal+": Meow Meow");
     }
 
     @Override
